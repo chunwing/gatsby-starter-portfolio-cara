@@ -1,0 +1,11 @@
+
+
+    @media only screen and (min-width: 1170px){
+        @import "desktop";
+    }
+    @media only screen and (min-width: 900px){
+        @import "tablet";
+      }
+    @media only screen and (max-width: 899px){
+        @import "mobile";
+    }

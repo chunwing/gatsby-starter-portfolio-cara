@@ -7,9 +7,11 @@ module.exports = {
   pathPrefix: config.pathPrefix,
   siteMetadata: {
     siteUrl: config.siteUrl + pathPrefix,
+    title: 'Wayne Resume',
   },
   /* Plugins */
   plugins: [
+    'gatsby-plugin-sass',
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
